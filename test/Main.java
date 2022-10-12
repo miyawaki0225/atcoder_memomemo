@@ -38,5 +38,4 @@ public class Main {
 		System.out.println(Arrays.toString(hyouji));
 		return hyouji.length;
 	}
->>>>>>> master
 }
