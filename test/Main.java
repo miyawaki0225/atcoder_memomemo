@@ -9,7 +9,6 @@ import java.util.stream.IntStream;
 public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		//入力値までの素数の個数を算出
 		System.out.println("値を入力してください。");
 		System.out.printf(">>>");
 		int result = furui(Integer.parseInt(br.readLine()));
@@ -35,7 +34,7 @@ public class Main {
 				.filter(n -> n != 1)
 				.filter(n -> n != 0)
 				.toArray();
-		System.out.println(Arrays.toString(hyouji));
+//		System.out.println(Arrays.toString(hyouji));
 		return hyouji.length;
 	}
 }
