@@ -8,13 +8,13 @@ import java.util.Arrays;
 
 public class Main {
     //解答作成用
-    public static void solve(){
+    public static void solve() throws IOException{
         
     }
     private static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     private static PrintWriter out = new PrintWriter(System.out);
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         solve();
         out.flush();
     }
